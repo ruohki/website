@@ -25,8 +25,8 @@ const Wrapper = styled.div`
 const Logo = styled.img.attrs({
   src: LOGO
 })`
-  height: 100%;
-  width: auto;
+  height: 70px;
+  width: 174.97px;
 `
 
 const Menu = styled.ul`
