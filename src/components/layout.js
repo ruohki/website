@@ -28,7 +28,7 @@ const Global =  createGlobalStyle`
   }
 
   body {
-    font-family: "Exo 2", Grotesk
+    font-family: "Exo 2", "Geeza Pro", Helvetica
   }
 `
 
