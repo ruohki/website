@@ -4,25 +4,6 @@ import { Spring,Keyframes, animated } from 'react-spring';
 
 import Layout from '../components/layout'
 
-const flyInLeft = keyframes`
-  from {
-    transform: translateX(-50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-`;
-const easeIn = keyframes`
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-`;
-
 const Wrapper = styled.div`
   height: 100%;
   width: 100%;
