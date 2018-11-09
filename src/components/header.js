@@ -38,9 +38,10 @@ const MenuItem = styled(Link).attrs({
   activeClassName: "active",
   exact: true
 })`
+  display: inline;
   float: left;
   padding: 10px 20px;
-
+  max-height: 39px;
   text-decoration: none;
 
   color: ${({ theme }) => theme.secondary};
@@ -59,6 +60,7 @@ const MenuItem = styled(Link).attrs({
   }
 
   & > svg {
+    display: inline;
     max-height: 16px;
   }
 `
