@@ -1,6 +1,6 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
-import { Spring,Keyframes, animated } from 'react-spring';
+import styled from 'styled-components';
+import { Spring, animated } from 'react-spring';
 
 import Layout from '../components/layout'
 
