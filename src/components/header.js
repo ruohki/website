@@ -31,6 +31,7 @@ const Logo = styled.img.attrs({
 
 const Menu = styled.ul`
   list-style-type: none;
+  max-height: 39px;
 `
 
 const MenuItem = styled(Link).attrs({
@@ -55,6 +56,10 @@ const MenuItem = styled(Link).attrs({
 
   &:active {
     color: ${({ theme }) => theme.primary};
+  }
+
+  & > svg {
+    max-height: 16px;
   }
 `
 
