@@ -14,6 +14,7 @@ const Wrapper = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 `
 
 const Title = styled.p`
