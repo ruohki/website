@@ -57,14 +57,14 @@ const Items = [{
   key: "twitter",
   item: (
     <ContactListItem>
-      <FontAwesomeIcon icon={faTwitter} /> <a href="https://twitter.com/tillhuebner" target="_blank">@tillhuebner</a>
+      <FontAwesomeIcon icon={faTwitter} /> <a href="https://twitter.com/tillhuebner" target="_blank" rel="noreferrer">@tillhuebner</a>
     </ContactListItem>
   )
 }, {
   key: "github",
   item: (
     <ContactListItem>
-      <FontAwesomeIcon icon={faGithub} /> <a href="https://github.com/ruohki" target="_blank">ruohki</a>
+      <FontAwesomeIcon icon={faGithub} /> <a href="https://github.com/ruohki" target="_blank" rel="noreferrer">ruohki</a>
     </ContactListItem>
   )
 }];

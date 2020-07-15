@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components';
 
 import LOGO from '../images/appahead-logo.png'
-import { fluidRange } from 'polished';
 import { Link } from 'gatsby'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -36,7 +35,7 @@ const Menu = styled.ul`
 
 const MenuItem = styled(Link).attrs({
   activeClassName: "active",
-  exact: true
+  exact: "true"
 })`
   display: inline;
   float: left;

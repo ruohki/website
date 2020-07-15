@@ -15,7 +15,6 @@ const Wrapper = styled.div`
 `
 
 const ExternalLink = styled.a.attrs({
-  href: (props) => props.to,
   target: "_blank"
 })`
   cursor: pointer;
@@ -31,7 +30,7 @@ const Center = styled.div`
 const Footer = ({ siteTitle }) => (
   <Wrapper>
     <Center>
-      Erstellt mit <ExternalLink to="https://www.gatsbyjs.org/">Gatsby</ExternalLink> und <ExternalLink to="https://reactjs.org/">React</ExternalLink>. Bereitgestellt durch <ExternalLink to="https://www.netlify.com/">Netlify</ExternalLink>. Diese Seite ist Open Source und verfügbar auf <ExternalLink to="https://github.com/Appahead/website">Github</ExternalLink>.
+      Erstellt mit <ExternalLink href="https://www.gatsbyjs.org/">Gatsby</ExternalLink> und <ExternalLink href="https://reactjs.org/">React</ExternalLink>. Bereitgestellt durch <ExternalLink to="https://www.netlify.com/">Netlify</ExternalLink>. Diese Seite ist Open Source und verfügbar auf <ExternalLink to="https://github.com/Appahead/website">Github</ExternalLink>.
     </Center>
   </Wrapper>
 )

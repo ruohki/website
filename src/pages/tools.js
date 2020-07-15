@@ -19,15 +19,6 @@ const Main = styled.p`
   margin: 40px 0 48px 0;
 `
 
-const Primary = styled.span`
-  color: ${({ theme }) => theme.primary};
-  font-weight: 500;
-`
-const Secondary = styled.p`
-  color: ${({ theme }) => theme.secondary};
-  font-size: 1.6rem;
-`
-
 const IndexPage = () => (
   <Layout>
     <Wrapper>
